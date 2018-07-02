@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asatana.Web", "Asatana.Web\Asatana.Web.csproj", "{F6613EE0-6407-4704-B991-F076C98AE178}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Astana.BLL", "Astana.BLL\Astana.BLL.csproj", "{185959E1-59B4-4418-9C56-BF60040373DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Astana.DAL", "Astana.DAL\Astana.DAL.csproj", "{C6E670B8-7A9C-4CDC-8417-57D26595A9C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6613EE0-6407-4704-B991-F076C98AE178}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6613EE0-6407-4704-B991-F076C98AE178}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6613EE0-6407-4704-B991-F076C98AE178}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6613EE0-6407-4704-B991-F076C98AE178}.Release|Any CPU.Build.0 = Release|Any CPU
+		{185959E1-59B4-4418-9C56-BF60040373DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{185959E1-59B4-4418-9C56-BF60040373DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{185959E1-59B4-4418-9C56-BF60040373DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{185959E1-59B4-4418-9C56-BF60040373DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6E670B8-7A9C-4CDC-8417-57D26595A9C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6E670B8-7A9C-4CDC-8417-57D26595A9C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6E670B8-7A9C-4CDC-8417-57D26595A9C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6E670B8-7A9C-4CDC-8417-57D26595A9C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
