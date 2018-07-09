@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Client.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -51,6 +50,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Astana.BLL\Astana.BLL.csproj">
+      <Project>{185959e1-59b4-4418-9c56-bf60040373dd}</Project>
+      <Name>Astana.BLL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Astana.DAL\Astana.DAL.csproj">
       <Project>{c6e670b8-7a9c-4cdc-8417-57d26595a9c3}</Project>
       <Name>Astana.DAL</Name>

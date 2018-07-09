@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="GeneratorName">
+      <HintPath>..\..\..\..\Desktop\GeneratorName.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -40,14 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ModelAccount\Account.cs" />
+    <Compile Include="ModelBank\Bank.cs" />
+    <Compile Include="ModelClient\Client.cs" />
     <Compile Include="Model\AstanaEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Astana.BLL\Astana.BLL.csproj">
-      <Project>{185959e1-59b4-4418-9c56-bf60040373dd}</Project>
-      <Name>Astana.BLL</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
