@@ -14,7 +14,7 @@ namespace Astana.BLL.ModelClient
             {
                 Console.WriteLine("a. Открыть счет.");
                 Console.WriteLine("b.	вывод баланса на экран;");
-                Console.WriteLine("b.	пополнение счёта;");
+                Console.WriteLine("c.	пополнение счёта;");
                 Console.WriteLine("d.	снять деньги со счёта");
                 Console.WriteLine("e.	выход.");
             }

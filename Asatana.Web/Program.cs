@@ -29,11 +29,12 @@ namespace Asatana.Web
                 Console.Clear();
                 Console.WriteLine("Welcome, {0} ", client.fullname);
                 Console.WriteLine("Choose: ");
+                Menu.GetMenu();
                 char ent;
                 do
                 {
                     ent = Console.ReadLine().ToLower()[0];
-                    Menu.GetMenu();
+                  
                     switch (ent)
                     {
                         case 'a':
@@ -81,6 +82,16 @@ namespace Asatana.Web
                                 sa.SetBalance(out mess, ref client, acc, sum);
                             }
                             break;
+
+                        case 'd':
+                            {
+
+                            }break;
+
+                        case 'e':
+                            {
+
+                            }break;
                     }
                     Console.ReadLine();
                     Console.Clear();
